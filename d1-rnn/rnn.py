@@ -14,7 +14,7 @@ print("Day 1 - RNN")
 
 # Dataset generation, generate 2 overlapping sets of point.
 np.random.seed(0)
-X, y = sklearn.datasets.make_moons(1000, noise=0.2)
+X, y = sklearn.datasets.make_moons(200, noise=0.7)
 plt.scatter(X[:,0], X[:,1], s=30, c=y, cmap=plt.cm.Spectral)
 
 # %% 4 
@@ -141,7 +141,7 @@ def build_model(nn_hdim, num_passes=20000, print_loss=False):
     return model
 
 # Now we can play
-hidden_node_count = 10
+hidden_node_count = 3
 model = build_model(hidden_node_count, print_loss=True)
 
 plot_decision_boundary(lambda x: predict(model, x))
