@@ -14,7 +14,7 @@ print("Day 1 - RNN")
 
 # Dataset generation, generate 2 overlapping sets of point.
 np.random.seed(0)
-X, y = sklearn.datasets.make_moons(200, noise=0.7)
+X, y = sklearn.datasets.make_moons(200, noise=0.2)
 plt.scatter(X[:,0], X[:,1], s=30, c=y, cmap=plt.cm.Spectral)
 
 # %% 4 
