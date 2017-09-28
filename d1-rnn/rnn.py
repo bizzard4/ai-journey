@@ -141,7 +141,7 @@ def build_model(nn_hdim, num_passes=20000, print_loss=False):
     return model
 
 # Now we can play
-hidden_node_count = 3
+hidden_node_count = 15
 model = build_model(hidden_node_count, print_loss=True)
 
 plot_decision_boundary(lambda x: predict(model, x))

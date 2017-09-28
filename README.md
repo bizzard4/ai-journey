@@ -15,3 +15,6 @@ Look at this beauty.
 ![Day 1 result](http://i.imgur.com/nHeypmj.png)
 
 This was a sweet run, I am ready for more adventure. There are 2 cities I want to visit, Theano and LSTM.
+
+## Day 2 - NLTK
+I decided to do a pit-spot at NLTK to see what is going there. I have hear about it but never took the time to go for it.
